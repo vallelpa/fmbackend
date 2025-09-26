@@ -1,0 +1,32 @@
+# Directory di build
+/target/
+/build/
+
+# File di log
+*.log
+
+# Configurazioni IDE
+/.idea/
+/*.iml
+/.vscode/
+
+# File temporanei
+*.tmp
+*.swp
+*~
+
+# Dipendenze
+/.mvn/wrapper/maven-wrapper.jar
+/.gradle/
+.gradle/
+
+# OS specifici
+.DS_Store
+Thumbs.db
+
+# Configurazioni locali sensibili
+application-local.properties
+application-*.yml
+
+# Directory generata da Spring Boot per i test
+/test-output/

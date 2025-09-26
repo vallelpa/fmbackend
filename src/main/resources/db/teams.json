@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Futsal Montevarchi",
+    "imageUrl": "./assets/logo.png",
+    "campionato": "SERIE C2 GIRONE D"
+  },
+  {
+    "id": 2,
+    "name": "Futsal Montevarchi U21",
+    "imageUrl": "./assets/logo.png",
+    "campionato": "UNDER 21 GIRONE A"
+  }
+]
