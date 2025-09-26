@@ -16,8 +16,9 @@ public class SecurityConfig {
 
 	private static final List<String> ALLOWED_ORIGINS = List.of(
 			"http://localhost:4200",
-			"https://tuo-frontend-angular.com" // sostituisci con il dominio reale
+			"https://vallelpa.github.io"
 	);
+
 
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
