@@ -20,8 +20,13 @@ datasource:
   password:
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
     show-sql: true
   h2:
     console:
       enabled: true
+
+#logging:
+#  level:
+#    org.springframework.security: DEBUG
+#    org.springframework.web: DEBUG
