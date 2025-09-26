@@ -14,10 +14,15 @@ import java.util.List;
 @Configuration
 public class SecurityConfig {
 
+	private static final List<String> ALLOWED_ORIGINS = List.of(
+			"http://localhost:4200",
+			"https://tuo-frontend-angular.com" // sostituisci con il dominio reale
+	);
+
 	@Bean
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 		http
-				.csrf(csrf -> csrf.disable())
+				.csrf(csrf -> csrf.disable()) // disabilitiamo CSRF per REST API
 				.cors(Customizer.withDefaults())
 				.authorizeHttpRequests(auth -> auth
 													   .requestMatchers(
@@ -28,20 +33,21 @@ public class SecurityConfig {
 													   ).permitAll()
 													   .anyRequest().authenticated()
 				);
+
 		return http.build();
 	}
-
 
 	@Bean
 	public CorsConfigurationSource corsConfigurationSource() {
 		CorsConfiguration configuration = new CorsConfiguration();
-		configuration.setAllowedOrigins(List.of("http://localhost:4200"));
+		configuration.setAllowedOrigins(ALLOWED_ORIGINS);
 		configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
 		configuration.setAllowedHeaders(List.of("*"));
-		configuration.setAllowCredentials(true);
+		configuration.setAllowCredentials(true); // necessario se usi cookie o token di sessione
 
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		source.registerCorsConfiguration("/**", configuration);
+
 		return source;
 	}
 }
