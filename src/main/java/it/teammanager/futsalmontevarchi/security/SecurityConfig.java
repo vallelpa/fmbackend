@@ -26,7 +26,7 @@ public class SecurityConfig {
 	private static final List<String> ALLOWED_ORIGINS = List.of(
 			"http://localhost:4200",
 			"https://vallelpa.github.io",
-			"https://fmbackend-cend.onrender.com"
+			"https://cheerful-cobbler-357177.netlify.app"
 	);
 
 	private final JwtAuthFilter jwtAuthFilter;
