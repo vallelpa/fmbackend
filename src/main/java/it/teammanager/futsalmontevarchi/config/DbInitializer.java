@@ -32,7 +32,7 @@ public class DbInitializer {
 		var users = jsonDb.readList("user.json", new TypeReference<List<Utenti>>() {});
 
 		if (users == null || users.isEmpty()) {
-			String encodedPassword = new BCryptPasswordEncoder().encode("admin");
+			String encodedPassword = new BCryptPasswordEncoder().encode("FutsalMontevarchi2025!");
 
 			Utenti admin = Utenti.builder()
 								 .id(1L)
