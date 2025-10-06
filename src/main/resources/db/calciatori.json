@@ -93,7 +93,7 @@
     "matricolaFIGC": "4597817",
     "tipoDocumento": "C.A.",
     "numeroDocumento": "CA53730CJ",
-    "capitano": false,
+    "capitano": true,
     "viceCapitano": false,
     "teamId": 1
   },
@@ -136,7 +136,7 @@
     "tipoDocumento": "C.A.",
     "numeroDocumento": "CA12317LJ",
     "capitano": false,
-    "viceCapitano": false,
+    "viceCapitano": true,
     "teamId": 1
   },
   {
@@ -229,7 +229,7 @@
     "cognomeNome": "BUCCI BRIAN",
     "cartellini": null,
     "scadenzaVisitaMedica": null,
-    "dataNascita": "2005-04-17",
+    "dataNascita": "2004-04-17",
     "matricolaFIGC": null,
     "tipoDocumento": "C.A.",
     "numeroDocumento": "CA56703HC",

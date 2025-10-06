@@ -61,12 +61,12 @@ public class NotegaraService {
 				row.getCell(0).setText(String.valueOf(c.getNumeroMaglia()));
 				row.getCell(1).setText(c.getDataNascita().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
 				StringBuilder nomeCompleto = new StringBuilder(c.getCognomeNome());
-/*				if (c.isCapitano()) {
+				if (c.isCapitano()) {
 					nomeCompleto.append(" CAP");
 				}
 				if (c.isViceCapitano()) {
 					nomeCompleto.append(" V.CAP");
-				}*/
+				}
 				row.getCell(2).setText(nomeCompleto.toString());
 				row.getCell(3).setText(c.getMatricolaFIGC() != null ? c.getMatricolaFIGC() : "");
 				row.getCell(4).setText(c.getTipoDocumento());
