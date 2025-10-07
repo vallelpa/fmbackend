@@ -404,5 +404,19 @@
     "capitano": false,
     "viceCapitano": false,
     "teamId": 2
+  },
+  {
+    "id": 30,
+    "numeroMaglia": null,
+    "cognomeNome": "PINTILIE SERGIU NICOLAE",
+    "cartellini": null,
+    "scadenzaVisitaMedica": null,
+    "dataNascita": "2004-10-24",
+    "matricolaFIGC": "",
+    "tipoDocumento": "C.A.",
+    "numeroDocumento": "CA22039KR",
+    "capitano": false,
+    "viceCapitano": false,
+    "teamId": 2
   }
 ]
