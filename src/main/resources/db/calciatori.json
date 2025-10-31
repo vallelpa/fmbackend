@@ -210,6 +210,34 @@
     "teamId": 1
   },
   {
+    "id": 20,
+    "numeroMaglia": 90,
+    "cognomeNome": "TADDEUCCI COSIMO",
+    "cartellini": null,
+    "scadenzaVisitaMedica": null,
+    "dataNascita": "2005-09-30",
+    "matricolaFIGC": null,
+    "tipoDocumento": "C.A.",
+    "numeroDocumento": "CA65730TH",
+    "capitano": false,
+    "viceCapitano": false,
+    "teamId": 1
+  },
+  {
+    "id": 21,
+    "numeroMaglia": 2,
+    "cognomeNome": "MANETTI EDOARDO",
+    "cartellini": null,
+    "scadenzaVisitaMedica": null,
+    "dataNascita": "2009-02-23",
+    "matricolaFIGC": null,
+    "tipoDocumento": "C.A.",
+    "numeroDocumento": "CA80712TI",
+    "capitano": false,
+    "viceCapitano": false,
+    "teamId": 1
+  },
+  {
     "id": 16,
     "numeroMaglia": 6,
     "cognomeNome": "NANNAVECCHIA SALVATORE",
