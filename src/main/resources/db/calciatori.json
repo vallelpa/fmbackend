@@ -460,5 +460,19 @@
     "capitano": false,
     "viceCapitano": false,
     "teamId": 1
+  },
+  {
+    "id": 34,
+    "numeroMaglia": null,
+    "cognomeNome": "GJNAJ GIULIO",
+    "cartellini": null,
+    "scadenzaVisitaMedica": null,
+    "dataNascita": "2001-08-17",
+    "matricolaFIGC": "3650431",
+    "tipoDocumento": "C.A.",
+    "numeroDocumento": "CA7476EF",
+    "capitano": false,
+    "viceCapitano": false,
+    "teamId": 1
   }
 ]
