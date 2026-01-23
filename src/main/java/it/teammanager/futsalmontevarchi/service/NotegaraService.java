@@ -58,7 +58,7 @@ public class NotegaraService {
 
 			for (Calciatore c : evento.getCalciatori()) {
 				XWPFTableRow row = table.createRow();
-				row.getCell(0).setText(String.valueOf(c.getNumeroMaglia()));
+				row.getCell(0).setText(c.getNumeroMaglia() != null ? c.getNumeroMaglia().toString() : "");
 				row.getCell(1).setText(c.getDataNascita().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
 				StringBuilder nomeCompleto = new StringBuilder(c.getCognomeNome());
 /*				if (c.isCapitano()) {
