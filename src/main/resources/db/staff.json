@@ -1,21 +1,7 @@
 [
   {
-    "id": 1,
-    "tipo": "ALLENATORE",
-    "cognomeNome": "MASSI MIRKO",
-    "numeroDocumento": "CA02707RW",
-    "teamId": 1
-  },
-  {
-    "id": 2,
-    "tipo": "ALLENATORE_IN_SECONDA",
-    "cognomeNome": "NOTARI FRANCESCO",
-    "numeroDocumento": "CA06547HY",
-    "teamId": 1
-  },
-  {
     "id": 3,
-    "tipo": null,
+    "tipo": "ALLENATORE",
     "cognomeNome": "MARSON NICO",
     "numeroDocumento": "AY2307567",
     "teamId": 1
