@@ -474,5 +474,33 @@
     "capitano": false,
     "viceCapitano": false,
     "teamId": 1
+  },
+  {
+    "id": 35,
+    "numeroMaglia": 14,
+    "cognomeNome": "PINTILIE SERGIU NICOLAE",
+    "cartellini": null,
+    "scadenzaVisitaMedica": null,
+    "dataNascita": "2004-10-24",
+    "matricolaFIGC": "",
+    "tipoDocumento": "C.A.",
+    "numeroDocumento": "CA22039KR",
+    "capitano": false,
+    "viceCapitano": false,
+    "teamId": 1
+  },
+  {
+    "id": 36,
+    "numeroMaglia": 78,
+    "cognomeNome": "NOCERA ANTONIO",
+    "cartellini": null,
+    "scadenzaVisitaMedica": null,
+    "dataNascita": "2006-06-29",
+    "matricolaFIGC": null,
+    "tipoDocumento": "C.A.",
+    "numeroDocumento": "CA42333JO",
+    "capitano": false,
+    "viceCapitano": false,
+    "teamId": 1
   }
 ]
