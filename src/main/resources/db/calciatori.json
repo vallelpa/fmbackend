@@ -42,20 +42,6 @@
     "teamId": 1
   },
   {
-    "id": 4,
-    "numeroMaglia": 8,
-    "cognomeNome": "IOIO SIMONE",
-    "cartellini": null,
-    "scadenzaVisitaMedica": null,
-    "dataNascita": "1998-04-15",
-    "matricolaFIGC": "5416279",
-    "tipoDocumento": "C.A.",
-    "numeroDocumento": "AX8694236",
-    "capitano": false,
-    "viceCapitano": false,
-    "teamId": 1
-  },
-  {
     "id": 5,
     "numeroMaglia": 17,
     "cognomeNome": "MUZZI AURELIO",
@@ -112,20 +98,6 @@
     "teamId": 1
   },
   {
-    "id": 9,
-    "numeroMaglia": null,
-    "cognomeNome": "ZOUHAIR GARIATE",
-    "cartellini": null,
-    "scadenzaVisitaMedica": null,
-    "dataNascita": "2000-07-17",
-    "matricolaFIGC": null,
-    "tipoDocumento": "C.A.",
-    "numeroDocumento": "CA51061JS",
-    "capitano": false,
-    "viceCapitano": false,
-    "teamId": 1
-  },
-  {
     "id": 10,
     "numeroMaglia": 5,
     "cognomeNome": "BERTOCCI JUBER",
@@ -177,20 +149,6 @@
     "matricolaFIGC": "3914935",
     "tipoDocumento": "C.A.",
     "numeroDocumento": "CA16459KU",
-    "capitano": false,
-    "viceCapitano": false,
-    "teamId": 1
-  },
-  {
-    "id": 14,
-    "numeroMaglia": 12,
-    "cognomeNome": "ERVIS COBAJ",
-    "cartellini": null,
-    "scadenzaVisitaMedica": null,
-    "dataNascita": "1980-11-25",
-    "matricolaFIGC": "5901198",
-    "tipoDocumento": "C.A.",
-    "numeroDocumento": "CA81077HQ",
     "capitano": false,
     "viceCapitano": false,
     "teamId": 1
