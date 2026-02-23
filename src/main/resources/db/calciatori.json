@@ -71,7 +71,7 @@
   },
   {
     "id": 7,
-    "numeroMaglia": 30,
+    "numeroMaglia": null,
     "cognomeNome": "CIAGLI EDOARDO",
     "cartellini": null,
     "scadenzaVisitaMedica": null,
@@ -246,7 +246,7 @@
     "dataNascita": "2006-04-28",
     "matricolaFIGC": "4878113",
     "tipoDocumento": "C.A.",
-    "numeroDocumento": "CA80712TI",
+    "numeroDocumento": "CA23917MM",
     "capitano": false,
     "viceCapitano": false,
     "teamId": 2
@@ -288,7 +288,7 @@
     "dataNascita": "2005-10-15",
     "matricolaFIGC": "2196969",
     "tipoDocumento": "C.A.",
-    "numeroDocumento": "CA23917MM",
+    "numeroDocumento": "CA56063MW",
     "capitano": false,
     "viceCapitano": false,
     "teamId": 2
