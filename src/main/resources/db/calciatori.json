@@ -460,5 +460,19 @@
     "capitano": false,
     "viceCapitano": false,
     "teamId": 1
+  },
+  {
+    "id": 37,
+    "numeroMaglia": 12,
+    "cognomeNome": "ABDEL",
+    "cartellini": null,
+    "scadenzaVisitaMedica": null,
+    "dataNascita": "",
+    "matricolaFIGC": "",
+    "tipoDocumento": "C.A.",
+    "numeroDocumento": "",
+    "capitano": false,
+    "viceCapitano": false,
+    "teamId": 1
   }
 ]
